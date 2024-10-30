@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ct:sit",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:fire_immune": true,
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:rideable": {
+			},
+			"minecraft:nameable": {
+				"always_show": false
+			},
+			"minecraft:collision_box": {
+				"height": 0.5,
+				"width": 0.5
+			}
+		}
+	}
+}
